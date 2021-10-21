@@ -1,0 +1,54 @@
+.nav{
+ position: fixed;
+ top: 0;
+ width: 100%;
+ padding: 20px;
+ height: 25px;
+
+ z-index: 1;
+
+ display: flex;
+ justify-content: space-between;
+
+ transition-timing-function: ease-in;
+ transition: all 0.5s;
+ 
+}
+
+.nav__black{
+    background-color: #111;
+}
+
+.nav__logo{
+    position: fixed;
+    left: 20px;
+    width: 90px;
+    object-fit: contain ;
+}
+
+.nav__usuario{
+    
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    color: rgb(223, 202, 209);
+    right: 135px;
+    width: 5px;
+}
+
+.nav__nombre{
+    font-size: 12px;
+}
+
+.nav__cargo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    font-size: 10.5px;
+    color: rgb(136, 143, 158);
+}
+
+.nav__avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain ;
+}
